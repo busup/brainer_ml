@@ -13,8 +13,8 @@ scores given some features and its respective weights.
 import numpy as np
 import pandas as pd
 
-from brainer.core.exceptions import ZeroWeightsError
-from brainer.core.logger import logger
+from brainer_ml.core.exceptions import ZeroWeightsError
+from brainer_ml.core.logger import logger
 
 
 class LinearScore:
